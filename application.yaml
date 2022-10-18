@@ -1,0 +1,8 @@
+euraka:
+  instance: 
+    prefer-ip-address: true
+  Client:
+    fetch-registry: true
+    register-with-euraka: true      
+    service-url: 
+      defualtZone: ${EUREKA_SERVER_ADDRESS:http://localhost/8761}

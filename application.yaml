@@ -1,6 +1,7 @@
 euraka:
   instance: 
     prefer-ip-address: true
+    hostname: localhost
   Client:
     fetch-registry: true
     register-with-euraka: true      
